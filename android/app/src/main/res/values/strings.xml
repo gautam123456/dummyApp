@@ -1,0 +1,5 @@
+<resources>
+    <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">POPAPBde6wCIs_NWYlr9KDzmBHb79e03a7df-2e5a-47b6-bbb3-f7d96a2a385d</string>
+    <string name="app_name">Lookplex</string>
+    <string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true">ENABLE_IN_JS</string>
+</resources>

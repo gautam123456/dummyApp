@@ -1,0 +1,54 @@
+{
+  "name": "Lookplex",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "i": "rm -rf ios/build && react-native run-ios",
+    "build-a": "cd android && ./gradlew assembleRelease",
+    "a": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res && react-native run-android --port=7910",
+    "emulator": "cd ~/Library/Android/Sdk/tools && ./emulator -avd Nexus_5X_API_23"
+  },
+  "dependencies": {
+    "appcenter": "^1.7.1",
+    "appcenter-analytics": "^1.7.1",
+    "appcenter-crashes": "^1.7.1",
+    "native-base": "^2.4.4",
+    "react": "16.3.1",
+    "react-native": "0.55.4",
+    "react-native-app-intro-slider": "^1.0.1",
+    "react-native-carousel": "^0.11.0",
+    "react-native-code-push": "^5.4.2",
+    "react-native-easy-toast": "^1.1.0",
+    "react-native-elements": "^0.19.1",
+    "react-native-firebase": "^4.3.8",
+    "react-native-linear-gradient": "^2.4.0",
+    "react-native-snap-carousel": "^3.7.2",
+    "react-navigation": "^2.9.3",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.3",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.3",
+    "react-test-renderer": "16.3.1",
+    "redux-devtools-extension": "^2.13.5"
+  },
+  "rnpm": {
+    "assets": [
+      "common/assets/fonts/"
+    ]
+  },
+  "jest": {
+    "preset": "react-native",
+    "setupFiles": [
+      "<rootDir>/node_modules/appcenter/test/AppCenterMock.js",
+      "<rootDir>/node_modules/appcenter-analytics/test/AppCenterAnalyticsMock.js",
+      "<rootDir>/node_modules/appcenter-crashes/test/AppCenterCrashesMock.js"
+    ]
+  }
+}

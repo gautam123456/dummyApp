@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "676947617335",
+    "firebase_url": "https://lookplex-android.firebaseio.com",
+    "project_id": "lookplex-android",
+    "storage_bucket": "lookplex-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676947617335:android:2deeb465b6eccf76",
+        "android_client_info": {
+          "package_name": "com.lookplex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676947617335-tg52oj5ropm78jmjir30182v1q1n1gnb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEbOEnn1ZbyCcGSdcRP3ra2PPZ-J3mZoE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

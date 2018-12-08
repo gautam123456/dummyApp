@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/gautamr/localDev/28Apr/Lookplex/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_assets_images_banner_2.jpg",
+        "source": "/Users/gautamr/localDev/28Apr/Lookplex/android/app/src/main/res/drawable-mdpi/common_assets_images_banner_2.jpg"
+    },
+    {
+        "merged": "/Users/gautamr/localDev/28Apr/Lookplex/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_assets_images_banner_3.jpg",
+        "source": "/Users/gautamr/localDev/28Apr/Lookplex/android/app/src/main/res/drawable-mdpi/common_assets_images_banner_3.jpg"
+    },
+    {
+        "merged": "/Users/gautamr/localDev/28Apr/Lookplex/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_assets_images_banner_4.jpg",
+        "source": "/Users/gautamr/localDev/28Apr/Lookplex/android/app/src/main/res/drawable-mdpi/common_assets_images_banner_4.jpg"
+    },
+    {
+        "merged": "/Users/gautamr/localDev/28Apr/Lookplex/android/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_assets_images_banner_1.jpg",
+        "source": "/Users/gautamr/localDev/28Apr/Lookplex/android/app/src/main/res/drawable-mdpi/common_assets_images_banner_1.jpg"
+    }
+]
