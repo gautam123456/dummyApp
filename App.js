@@ -11,7 +11,6 @@ import { AsyncStorage } from 'react-native';
 import { PersistGate } from 'redux-persist/integration/react'
 import LoaderImage from './common/components/LoaderImage';
 
-
 const persistConfig = {
   key: 'v1',
   storage: AsyncStorage
